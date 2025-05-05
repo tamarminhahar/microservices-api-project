@@ -1,0 +1,16 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "fake rest API ",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json --port 3000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3",
+    "json5": "^2.2.3"
+  },
+  "keywords": []
+}

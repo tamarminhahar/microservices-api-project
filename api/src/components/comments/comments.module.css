@@ -1,0 +1,86 @@
+.commentsContainer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1f1f2e; /* שינוי צבע לרקע כהה */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); /* צל כהה יותר */
+  z-index: 1000;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  color: #fff; /* צבע טקסט לבן */
+}
+
+.commentsContainer h1 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  }
+
+.commentsContainer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 300px; /* גובה מרבי של הרשימה */
+  overflow-y: auto; /* הוספת גלילה אנכית */
+  border: 1px solid #ffd700; /* צבע זהב לגבול */
+  border-radius: 4px;
+  background-color: #282846; /* רקע כהה יותר */
+}
+
+.commentsContainer ul::-webkit-scrollbar {
+  width: 8px;
+}
+
+.commentsContainer ul::-webkit-scrollbar-thumb {
+  background-color: #ffd700; /* צבע זהב לגלילה */
+  border-radius: 4px;
+}
+
+.commentsContainer ul::-webkit-scrollbar-thumb:hover {
+  background-color: #e5b800; /* צבע זהב כהה יותר בגלילה */
+}
+
+.commentsContainer li {
+  margin: 10px 0;
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  background-color: #1f1f2e; /* רקע כהה לפריט ברשימה */
+  color: #fff; /* טקסט לבן */
+}
+
+.commentsContainer li:last-child {
+  border-bottom: none;
+}
+
+.commentActionBtn button {
+  background-color: #f0b90b;
+  border: none;
+  color: #000;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 10px 10px 10px 0;
+  width: 60px;
+  height: 60px;
+}
+
+.commentsContainer button:hover {
+  background-color: #e5b800; /* צבע זהב כהה יותר */
+}
+
+.commentsContainer input, 
+.commentsContainer textarea {
+  width: calc(100% - 24px);
+  padding: 10px;
+  margin: 5px auto;
+  border: 1px solid #ffd700; /* צבע זהב */
+  border-radius: 4px;
+  background-color: #282846; /* רקע כהה לשדות */
+  color: #fff; /* טקסט לבן */
+}

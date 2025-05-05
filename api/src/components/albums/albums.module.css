@@ -1,0 +1,88 @@
+.albumsContainer {
+  padding: 20px;
+  background-color: #1f1f2e; /* צבע רקע כהה */
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); /* צל כהה */
+  color: #fff; /* צבע טקסט לבן */
+}
+
+.albumsHeader {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color:white; 
+}
+
+.albumsButtons {
+  margin-bottom: 20px;
+}
+
+.albumsSearchContainer {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.albumsSearchInput {
+  padding: 8px;
+  border: 1px solid #ffd700; /* צבע זהב */
+  border-radius: 4px;
+  width: 200px;
+  background-color: #282846; /* רקע כהה לשדה */
+  color: #fff; /* טקסט לבן */
+}
+
+.albumsSearchButton {
+  padding: 8px 12px;
+  background-color: #ffd700; /* צבע זהב */
+  color: #1f1f2e; /* צבע טקסט כהה */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.albumsSearchButton:hover {
+  background-color: #e5b800; /* צבע זהב כהה יותר */
+}
+
+.albumsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.albumsListItem {
+  margin-bottom: 10px;
+  background-color: #1c1c28;; /* רקע כהה לפריט ברשימה */
+  padding: 10px;
+  border: 1px solid #ffd700; /* גבול בצבע זהב */
+  border-radius: 4px;
+}
+
+.addAlbumContainer {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.addAlbumInput {
+  padding: 8px;
+  border: 1px solid #ffd700; /* צבע זהב */
+  border-radius: 4px;
+  background-color: #282846; /* רקע כהה לשדה */
+  color: #fff; /* טקסט לבן */
+}
+
+.addAlbumButton {
+  padding: 8px 12px;
+  background-color: #ffd700; /* צבע זהב */
+  color: #1f1f2e; /* צבע טקסט כהה */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.addAlbumButton:hover {
+  background-color: #e5b800; /* צבע זהב כהה יותר */
+}

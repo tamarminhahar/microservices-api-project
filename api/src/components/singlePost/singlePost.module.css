@@ -1,0 +1,52 @@
+.commentsDiv {
+  position: relative;
+}
+
+.singlePost {
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.singlePost:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.063);
+  z-index: 999;
+}
+
+.postActions {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.postActions>button {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+  background-color: #f0b90b;
+  border: none;
+  color: #000;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 10px 10px 10px 0;
+}
+
+.postActions>button :hover {
+  background-color: #fff;
+  color: #000;
+}
+img{
+  width: 130%;
+}

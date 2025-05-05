@@ -1,0 +1,18 @@
+.todoActions>button {
+    width: 50px;
+    height: 50px;
+     border-radius: 30%;
+    background-color: #f0b90b;
+    border: none;
+    color: #000;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin: 10px 10px 10px 0;
+}
+
+.todoActions>button:hover {
+    background-color: #fff;
+    color: #000;
+}
+

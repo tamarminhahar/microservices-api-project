@@ -1,0 +1,99 @@
+.todoList {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+  background-color: #1c1c28;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.todoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid #333;
+  color: #fff;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.todoItem:last-child {
+  border-bottom: none;
+}
+
+.todoItem:hover {
+  background-color: #2c2c3e;
+}
+
+select,
+input,
+select option {
+  font-size: 1rem;
+  padding: 5px 10px;
+  margin: 0 10px 10px 0;
+  border-radius: 5px;
+  border: none;
+  background: none;
+  color: #fff;
+  outline: none;
+  transition: border-color 0.3s;
+}
+select{
+  outline: none;
+  background-color: #2b2e4a;
+}
+
+.button {
+  background-color: #f0b90b;
+  border: none;
+  color: #000;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 10px 10px 10px 0;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.button:disabled {
+  background-color: #555;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+
+input[type="text"] {
+  background-color: #2c2c3e;
+  color: #fff;
+  border: 1px solid #555;
+  padding: 10px;
+}
+
+input[type="text"]::placeholder {
+  color: #aaa;
+}
+
+p {
+  color: #fff;
+  font-style: italic;
+  margin: 20px 0;
+}
+
+.addTaskContainer {
+  margin: 20px 0;
+}
+
+.addTaskContainer input {
+  width: 300px;
+}
+
+.addTaskContainer button {
+  margin-left: 10px;
+}

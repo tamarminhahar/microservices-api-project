@@ -1,0 +1,164 @@
+.photosPopup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #1f1f2e; /* צבע רקע כהה */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); /* צל כהה */
+  z-index: 1000;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  overflow-y: auto;
+  max-height: 500px;
+  color: #fff; /* טקסט לבן */
+}
+
+.photosPopup ul::-webkit-scrollbar {
+  width: 8px;
+}
+
+.photosPopup ul::-webkit-scrollbar-thumb {
+  background-color: #ffd700; /* צבע זהב לגלילה */
+  border-radius: 4px;
+}
+
+.photosPopup ul::-webkit-scrollbar-thumb:hover {
+  background-color: #e5b800; /* צבע זהב כהה יותר בגלילה */
+}
+.photosHeader {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white;
+   text-align: center;
+}
+
+.photosActions {
+  margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.photosInput {
+  padding: 8px;
+  border: 1px solid #ffd700; /* צבע זהב */
+  border-radius: 4px;
+  width: calc(50% - 10px);
+  background-color: #282846; /* רקע כהה לשדה */
+  color: #fff; /* טקסט לבן */
+}
+
+.photosAddButton {
+  padding: 8px 12px;
+  background-color: #ffd700; /* צבע זהב */
+  color: #1f1f2e; /* צבע טקסט כהה */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.photosAddButton:hover {
+  background-color: #e5b800; /* צבע זהב כהה יותר */
+}
+
+.photosGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.photoCard {
+  display: flex;
+   border: 2px solid #ffd700; /* גבול בצבע זהב */
+  border-radius: 4px;
+  overflow: hidden;
+  text-align: center;
+  background-color: #1f1f2e; /* רקע כהה לכרטיס */
+  color: #fff; /* טקסט לבן */
+}
+
+.photoImg {
+  width: 50%;
+  border-right: 2px solid #ffd700; /* גבול זהב בין תמונה לתוכן */
+}
+
+.photoCardActions {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  color: #fff; /* טקסט לבן */
+}
+
+.todoActions button img {
+  width: 20px; /* גודל אייקונים אחיד */
+  filter: brightness(0) invert(1); /* התאמת אייקונים לרקע כהה */
+}
+
+.photosPopup ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  max-height: 300px; /* גובה מרבי של הרשימה */
+  overflow-y: auto; /* הוספת גלילה אנכית */
+  border: 1px solid #ffd700; /* צבע זהב לגבול */
+  border-radius: 4px;
+  background-color: #282846; /* רקע כהה יותר */
+}
+
+.photosPopup ul::-webkit-scrollbar {
+  width: 8px;
+}
+
+.photosPopup ul::-webkit-scrollbar-thumb {
+  background-color: #ffd700; /* צבע זהב לגלילה */
+  border-radius: 4px;
+}
+
+.photosPopup ul::-webkit-scrollbar-thumb:hover {
+  background-color: #e5b800; /* צבע זהב כהה יותר בגלילה */
+}
+
+.photosPopup li {
+  margin: 10px 0;
+  text-align: left;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  background-color: #1f1f2e; /* רקע כהה לפריט ברשימה */
+  color: #fff; /* טקסט לבן */
+}
+
+.photosPopup li:last-child {
+  border-bottom: none;
+}
+
+.photoCard button {
+  background-color: #f0b90b;
+  border: none;
+  color: #000;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin: 10px 10px 10px 0;
+  width: 60px;
+  height: 60px;
+}
+
+.photosPopup button:hover {
+  background-color: #e5b800; /* צבע זהב כהה יותר */
+}
+
+.photosPopup input, 
+.photosPopup textarea {
+  width: calc(100% - 24px);
+  padding: 10px;
+  margin: 5px auto;
+  border: 1px solid #ffd700; /* צבע זהב */
+  border-radius: 4px;
+  background-color: #282846; /* רקע כהה לשדות */
+  color: #fff; /* טקסט לבן */
+}
